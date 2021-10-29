@@ -1,0 +1,224 @@
+
+#header{
+  position: relative;
+  top:0;
+  padding:0px;
+  width: 100%;
+}
+
+.upper-header {
+    background: #1e1e1e;
+}
+.upper-header h1{
+  color:#1bbd36;
+}
+.upper-header h1 span{
+  color:#fff;
+}
+
+.back-shade-area{
+  background:linear-gradient(to bottom right,#1bbd36 0%, #0e7b12 100%);
+   border-radius: 4px;
+}
+.upper-header h3{
+  padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.upper-header h3 span{
+  padding:0px 5px;
+ }
+.top-call-us-area>span{
+  padding-bottom:10px;
+}
+.top-call-us-area a{
+  padding-left:10px;
+}
+.white-area-container{
+    width: 100%;
+}
+.stickynav {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+.stickynav.madesticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+/*.banner-slider {*/
+/*    padding-top: 105px;*/
+/*}*/
+
+#hero {
+    height: 110vh;
+}
+.slider-contact-form {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: 5%;
+    padding: 10px 10px 0px 10px;
+    width: 33%;
+    display: inline-block;
+    border: 10px solid #1e1e1e;
+    box-shadow: 0 0 0 4px #108718;
+}
+.slider-contact-form:before {
+    border: 2px solid #128d1c;
+}
+.slider-contact-form h3 {
+    text-align: center;
+    color: #fff;
+}
+.slider-submit-button {
+    padding: 8px 40px;
+    background: #3c3c3c;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+.banner-content {
+  margin-top: 100px;
+}
+.banner-content span{
+  padding: 0px 5px;
+}
+
+.header-social-links a{
+    padding-right: 20px;
+}
+
+.general-form p{
+    margin-top: 0;
+    margin-bottom: -1rem;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.general-form > .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.general-form .form-control {
+    font-size: 0.8rem;
+    border: 0px solid #ced4da;
+}
+.general-form label{
+    font-size:13px;
+    font-weight: bold;
+    color:#1e1e1e;
+    margin-bottom: 0rem;
+}
+
+.input-medatory-astric{
+    color:red;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+    background-image: none;
+}
+
+.warranty-logo{
+    width:200px;
+    height:auto;
+}
+
+
+
+.header-contact-options .option-phone{
+    width: 50%;
+}
+
+.header-contact-options .option-whatsapp{
+    width: 50%;
+    float:right;
+}
+.header-contact-options .option-phone img{
+    width:30px;
+    height:auto;
+}
+
+.header-contact-options .option-whatsapp img{
+    width:30px;
+    height:auto;
+}
+
+.top-call-us-area a{
+    color:inherit;
+}
+
+.carousel-item .carousel-content a{
+    color:inherit;
+}
+
+.form-control.is-invalid{
+    border: solid 1.5px #dc3545;
+}
+
+#overlay-layer {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(102, 102, 102);
+    z-index: 9000000;
+    opacity: 0.8;
+    display: none;
+}
+
+@media (max-width: 1024px){
+
+   #header .white-area-logo{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .banner-slider #hero {
+    height: 40vh;
+}
+.slider-contact-form{
+   position: relative;
+    width: 96%;
+    right: 0;
+    margin: 8px;
+  }
+}
+@media (max-width: 767px){
+  .upper-header .row{
+    text-align: center;
+  }
+  .banner-slider #hero {
+    height: 55vh;
+}
+.banner-content {
+    margin-top: 30px;
+}
+/*#header{*/
+/*  position: static;*/
+/*}*/
+
+
+/*.banner-slider {*/
+/*    padding-top: 0px;*/
+/*}*/
+/*.slider-contact-form{*/
+/*  position: static;*/
+/*}*/
+.upper-header h3{
+  padding-top: 0px;
+}
+    .warranty-logo{
+        width:110px;
+        height:auto;
+    }
+}
+

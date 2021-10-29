@@ -1,0 +1,56 @@
+.form-error-text {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-error-text-admin {
+    margin-top: 0;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.datatable-content{
+    font-size: 12px;
+}
+
+.slider-contact-form{
+    padding:15px;
+}
+.slider-contact-form h3{
+    display:none;
+}
+
+.general-form p {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+.input-medatory-astric{
+    color: red;
+}
+.admin-dark-background{
+    background-color: #f1f1f1 !important;
+}
+.list-filter-form .form-control{
+    font-size: 0.7rem;
+}
+
+#overlay-layer {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(102, 102, 102);
+    z-index: 9000000;
+    opacity: 0.8;
+    display: none;
+}
